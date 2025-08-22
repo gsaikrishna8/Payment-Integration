@@ -1,0 +1,26 @@
+/* Container for the entire app to center content vertically and horizontally */
+.app-container {
+  height: 100vh; /* Full viewport height */
+  max-width: 200px; /* Limit max width */
+  margin: 0 auto; /* Center horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color:  #fff;;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Loading spinner container styling */
+.loading-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #4f46e5; /* Indigo color */
+}
